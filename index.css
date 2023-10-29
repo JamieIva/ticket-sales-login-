@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    font-family: "inter", "sans-serif";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-image: url(images/mile.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*wrapper card*/
+.wrapper{
+    width: 420px;
+    background: transparent;
+    /*border: 2px solid rgba(255, 255, 255, 2);*/
+    backdrop-filter: blur(10px) brightness(60%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+}
+.wrapper h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /*background: ;*/
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 8px;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: aliceblue;
+}
+
+.input-box i{
+    position: relative;
+    right: -340px;
+    top: -50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+/*remember me*/
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+    color: rgb(254, 62, 62);
+}
+
+/*Login or submit button*/
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    margin-top: 10px;
+}
+/*Do you have an account*/
+.wrapper .register-link{
+    font-size: 15px;
+    text-align: center;
+    margin:20px;
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
